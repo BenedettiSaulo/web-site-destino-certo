@@ -1,0 +1,170 @@
+body {
+  padding-top: 3rem;
+  height: 100%;
+  margin: 0;
+}
+
+header nav {
+  background-color: #14536e;
+  color: #f8f9fa;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: #336b87;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  opacity: 50%;
+}
+
+.carousel-item .first-slide {
+  transform: translate(0, -10%);
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.address-section {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  border-top: 1px solid #f8f9fa;
+  margin-top: 2rem;
+}
+
+.map-container {
+  margin: 20px 0;
+  height: 300px;
+  border: 1px solid #f8f9fa;
+}
+
+.card-img-top {
+  width: 100px;
+  height: 348px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.depoimento{
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.btn  {
+  color: #f8f9fa !important;
+  background-color: #14536e !important;
+  border-color: #14536e !important;
+}
+
+.contact-form, .contact-info {
+  margin-top: 2rem;
+}
+
+.contact-info {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #f8f9fa;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.whatsapp-button:hover {
+  text-decoration: none;
+  background-color: #14536e;
+  color: #f8f9fa;
+}
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.social-links a:hover {
+  color: #14536e;
+}
+
+footer .container {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Estilo para o texto dentro do rodapé */
+.footer p {
+  margin: 0;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

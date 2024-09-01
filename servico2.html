@@ -1,0 +1,172 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Template para o carousel Bootstrap</title>
+
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="carousel.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html" href="#">Destino Certo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="empresa.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="depoimentos.html">Depoimentos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    
+    <main role="main">
+      <div class="container my-5">
+        <h1 class="text-center mb-4">Experiências Exclusivas: Viagem ao Japão</h1>
+    
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <img src="DestinoCerto/Serviços/Experiências-Exclusivas/Japan.jpg" class="img-fluid rounded" alt="Imagem 1 da Viagem ao Japão">
+            </div>
+            <div class="col-md-6">
+                <img src="DestinoCerto/Serviços/Experiências-Exclusivas/Japan_2.jpg" class="img-fluid rounded" alt="Imagem 2 da Viagem ao Japão">
+            </div>
+        </div>
+    
+        <div class="row mb-4">
+            <div class="col">
+                <h3>Vídeo da viagem</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/G5RpJwCJDqc?si=rv4TU7ihNITMfZ-6" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <h3 class="mb-4">Detalhes do Serviço</h3>
+                <p>Proporcionamos experiências exclusivas e únicas que vão além do turismo tradicional. Oferecemos atividades especiais como passeios de barco privados, jantares gourmet em locais exóticos e eventos culturais, garantindo momentos memoráveis e autênticos para nossos clientes.</p>
+                <ul>
+                    <li><strong>Preço:</strong> R$ 15.000,00</li>
+                    <li><strong>Tempo para realizar o serviço:</strong> 10 dias</li>
+                    <li><strong>Dias de atendimento:</strong> Segunda a Sexta</li>
+                    <li><strong>Horários de atendimento:</strong> 9h às 18h</li>
+                    <li><strong>Informações adicionais:</strong> Acompanhamento de guia local bilíngue incluído.</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#budgetModal">
+                    Solicitar Orçamento
+                </button>
+            </div>
+        </div>
+      </div>
+    
+      <div class="modal fade" id="budgetModal" tabindex="-1" role="dialog" aria-labelledby="budgetModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="budgetModalLabel">Solicitar Orçamento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Nome</label>
+                                <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="Seu E-mail">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Seu Telefone">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="address">Endereço</label>
+                                <input type="text" class="form-control" id="address" placeholder="Seu Endereço">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="city">Cidade</label>
+                                <input type="text" class="form-control" id="city" placeholder="Sua Cidade">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="state">UF</label>
+                                <input type="text" class="form-control" id="state" placeholder="Seu Estado">
+                            </div>
+                            <div class="form-group col-md-3">
+                              <label for="date">Data desejada</label>
+                              <input type="date" class="form-control" id="date">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="observations">Observações</label>
+                                <textarea class="form-control" id="observations" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <main role="main">
+      <footer class="container">
+        <div class="container">
+          <p class="float-right"><a href="#">Voltar ao topo</a></p>
+          <p>&copy; Saulo Benedetti, 2024 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+        </div>
+      </footer>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
